@@ -4,7 +4,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Hello Gridea | 漂移指南</title>
-<link rel="shortcut icon" href="https://FreelineGuide.github.io/favicon.ico?v=1562748466930">
+<link rel="shortcut icon" href="https://FreelineGuide.github.io/favicon.ico?v=1562749051526">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://FreelineGuide.github.io/styles/main.css">
@@ -20,7 +20,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://FreelineGuide.github.io">
-  <img class="avatar" src="https://FreelineGuide.github.io/images/avatar.png?v=1562748466930" alt="">
+  <img class="avatar" src="https://FreelineGuide.github.io/images/avatar.png?v=1562749051526" alt="">
   </a>
   <h1 class="site-title">
     漂移指南
@@ -119,6 +119,32 @@
 
         
 
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'c8e2d7bbe7513bdc8f91',
+    clientSecret: '15f82d0ecf3ae91dbad4924e262c22c316f8ed2a',
+    repo: 'FreelineGuide.github.io',
+    owner: 'FreelineGuide',
+    admin: ['FreelineGuide'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
         
 
         <div class="site-footer">
